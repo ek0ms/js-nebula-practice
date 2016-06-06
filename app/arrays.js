@@ -2,7 +2,16 @@ exports = typeof window === 'undefined' ? global : window;
 
 exports.arraysAnswers = {
   indexOf: function(arr, item) {
-
+    var isEmpty = true
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] == item) {
+        isEmpty = false
+        return i;
+      };
+    };
+    if (isEmpty) {
+      return -1;
+    };
   },
 
   sum: function(arr) {
