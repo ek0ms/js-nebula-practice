@@ -2,9 +2,9 @@
 
 # Purpose
 
-This assessment is used as extra practice for myself. I wanted to get more comfortable with JavaScript workings, syntax, and functions.
+This assessment is used as extra practice for myself. I wanted to get more comfortable with JavaScript workings, syntax, and functions. 
 
-# A test-driven JS assessment
+## A test-driven JS assessment
 
 This repo includes a set of tests that can be used to assess the skills of
 a candidate for a JavaScript position, or to evaluate and improve one's own
