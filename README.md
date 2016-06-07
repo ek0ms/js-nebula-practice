@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/rmurphey/js-assessment.svg?branch=master)](https://travis-ci.org/rmurphey/js-assessment)
 
+# Purpose
+
+This assessment is used as extra practice and to get more comfortable with JavaScript workings, syntax, and functions.
+
 # A test-driven JS assessment
 
 This repo includes a set of tests that can be used to assess the skills of
