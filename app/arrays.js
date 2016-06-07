@@ -23,7 +23,12 @@ exports.arraysAnswers = {
   },
 
   remove: function(arr, item) {
-
+    var a = arr.slice(0)
+    while(a.indexOf(item) !== -1) {
+      itemIndex = a.indexOf(item);
+      a.splice(itemIndex, 1);
+    };
+    return a;
   },
 
   removeWithoutCopy: function(arr, item) {
