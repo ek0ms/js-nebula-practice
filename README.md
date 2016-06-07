@@ -2,7 +2,7 @@
 
 # Purpose
 
-This assessment is used as extra practice and to get more comfortable with JavaScript workings, syntax, and functions.
+This assessment is used as extra practice for myself. I wanted to get more comfortable with JavaScript workings, syntax, and functions.
 
 # A test-driven JS assessment
 
