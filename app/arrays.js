@@ -32,7 +32,11 @@ exports.arraysAnswers = {
   },
 
   removeWithoutCopy: function(arr, item) {
-
+    while(arr.indexOf(item) !== -1) {
+      itemIndex = arr.indexOf(item);
+      arr.splice(itemIndex, 1);
+    };
+    return arr;
   },
 
   append: function(arr, item) {
