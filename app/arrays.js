@@ -60,7 +60,13 @@ exports.arraysAnswers = {
   },
 
   concat: function(arr1, arr2) {
-    
+    var array1 = arr1.slice(0)
+    var array2 = arr2.slice(0)
+    while (array2.length > 0) {
+      var item = array2.shift()
+      array1.push(item)
+    };
+    return array1
   },
 
   insert: function(arr, item, index) {
