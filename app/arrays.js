@@ -84,11 +84,18 @@ exports.arraysAnswers = {
   },
 
   duplicates: function(arr) {
+    var duplicates = []
+    for (var i = 0; i < arr.length; i++) {
 
+    }
   },
 
   square: function(arr) {
-
+    var a = []
+    for (var i = 0; i < arr.length; i++) {
+      a.push(arr[i] * arr[i])
+    };
+    return a
   },
 
   findAllOccurrences: function(arr, target) {
