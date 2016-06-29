@@ -77,8 +77,9 @@ exports.arraysAnswers = {
   count: function(arr, item) {
     var counter = 0
     for (var i = 0; i < arr.length; i++) {
-      if (arr[i] == item)
+      if (arr[i] == item) {
         counter += 1
+      }
     };
     return counter;
   },
@@ -99,6 +100,12 @@ exports.arraysAnswers = {
   },
 
   findAllOccurrences: function(arr, target) {
-
+    var a = []
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] == target) {
+        a.push(i)
+      };
+    };
+    return a
   }
 };
