@@ -85,9 +85,11 @@ exports.arraysAnswers = {
   },
 
   duplicates: function(arr) {
+    var a = arr.slice(0)
+    a.sort()
     var duplicates = []
     for (var i = 0; i < arr.length; i++) {
-
+  
     }
   },
 
